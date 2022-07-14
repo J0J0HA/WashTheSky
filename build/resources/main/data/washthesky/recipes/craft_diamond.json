@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "washthesky:diamond_shard"
+    },
+    "1": {
+      "item": "washthesky:diamond_shard"
+    },
+    "2": {
+      "item": "washthesky:diamond_shard"
+    },
+    "3": {
+      "item": "washthesky:diamond_shard"
+    },
+    "4": {
+      "item": "washthesky:diamond_shard"
+    },
+    "5": {
+      "item": "washthesky:diamond_shard"
+    },
+    "6": {
+      "item": "washthesky:diamond_shard"
+    },
+    "7": {
+      "item": "washthesky:diamond_shard"
+    },
+    "8": {
+      "item": "washthesky:diamond_shard"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond",
+    "count": 1
+  }
+}

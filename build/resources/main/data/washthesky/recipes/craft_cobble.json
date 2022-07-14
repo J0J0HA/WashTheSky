@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "washthesky:tiny_stone"
+    },
+    "1": {
+      "item": "washthesky:tiny_stone"
+    },
+    "2": {
+      "item": "washthesky:tiny_stone"
+    },
+    "3": {
+      "item": "washthesky:tiny_stone"
+    }
+  },
+  "result": {
+    "item": "minecraft:cobblestone",
+    "count": 1
+  }
+}

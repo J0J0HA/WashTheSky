@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "washthesky:dirt_crumbs"
+    },
+    "1": {
+      "item": "washthesky:dirt_crumbs"
+    },
+    "2": {
+      "item": "washthesky:dirt_crumbs"
+    },
+    "3": {
+      "item": "washthesky:dirt_crumbs"
+    }
+  },
+  "result": {
+    "item": "minecraft:dirt",
+    "count": 1
+  }
+}

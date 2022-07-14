@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "washthesky:blocks/converter_side",
+    "up": "washthesky:blocks/converter_side",
+    "north": "washthesky:blocks/converter_side",
+    "east": "washthesky:blocks/converter_side",
+    "south": "washthesky:blocks/converter_side",
+    "west": "washthesky:blocks/converter_side",
+    "particle": "washthesky:blocks/converter_side"
+  }
+}

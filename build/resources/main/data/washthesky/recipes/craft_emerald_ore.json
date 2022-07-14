@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stone"
+    },
+    "1": {
+      "item": "washthesky:emerald_shard"
+    },
+    "2": {
+      "item": "washthesky:emerald_shard"
+    },
+    "3": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "minecraft:emerald_ore",
+    "count": 2
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "svbcmt_core:any_wooden_bucket"
+    }
+  ],
+  "result": {
+    "item": "washthesky:wooden_bucket",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "washthesky:wooden_bucket_water"
+    },
+    {
+      "item": "minecraft:dirt"
+    }
+  ],
+  "result": {
+    "item": "washthesky:tiny_stone",
+    "count": 8
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "washthesky:dirt_crumbs"
+    },
+    "1": {
+      "tag": "washthesky:compostcraftingaccepted"
+    },
+    "2": {
+      "tag": "washthesky:compostcraftingaccepted"
+    },
+    "3": {
+      "item": "washthesky:dirt_crumbs"
+    }
+  },
+  "result": {
+    "item": "washthesky:compost",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "washthesky:blocks/compost",
+    "up": "washthesky:blocks/compost",
+    "north": "washthesky:blocks/compost",
+    "east": "washthesky:blocks/compost",
+    "south": "washthesky:blocks/compost",
+    "west": "washthesky:blocks/compost",
+    "particle": "washthesky:blocks/compost"
+  }
+}
