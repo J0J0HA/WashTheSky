@@ -1,1 +1,1 @@
-# WashTheSky
+See here: https://www.curseforge.com/minecraft/mc-mods/washthesky
