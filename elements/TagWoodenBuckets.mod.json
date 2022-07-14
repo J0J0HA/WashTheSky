@@ -1,0 +1,26 @@
+{
+  "_fv": 28,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:WoodenBucketOfSapling"
+      },
+      {
+        "value": "CUSTOM:WoodenBucketOfWater"
+      },
+      {
+        "value": "CUSTOM:WoodenBucket"
+      },
+      {
+        "value": "CUSTOM:WoodenBucketOfSteam"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "tag_wooden_buckets",
+    "namespace": "mod"
+  }
+}

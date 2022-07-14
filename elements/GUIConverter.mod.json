@@ -1,0 +1,169 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 186,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "arrows3.png",
+          "use1Xscale": false,
+          "name": "arrows3.png",
+          "x": 137,
+          "y": 36
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "SVBCMT Converter",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "SVBCMT Converter",
+          "x": 171,
+          "y": 48
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 150,
+          "y": 69
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:WoodenBucketOfWater"
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 150,
+          "y": 96
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 258,
+          "y": 68
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #3",
+          "x": 276,
+          "y": 68
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 4,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #4",
+          "x": 258,
+          "y": 95
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 5,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #5",
+          "x": 132,
+          "y": 69
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "screenshot_2021-12-20_011132.png",
+          "use1Xscale": false,
+          "name": "screenshot_2021-12-20_011132.png",
+          "x": 126,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "IN",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "IN",
+          "x": 135,
+          "y": 57
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "OUT OUT",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "OUT OUT",
+          "x": 258,
+          "y": 57
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "OUT",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "OUT",
+          "x": 259,
+          "y": 86
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

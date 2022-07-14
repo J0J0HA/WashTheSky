@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "m_3": "compost",
+        "m_2": "compost",
+        "m_4": "compost",
+        "m_1": "compost",
+        "m_0": "compost"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BlockRubble"
+      },
+      {
+        "value": "CUSTOM:BlockRubble"
+      },
+      {
+        "value": "CUSTOM:BlockRubble"
+      },
+      {
+        "value": "CUSTOM:BlockRubble"
+      },
+      {
+        "value": "Blocks.COBBLESTONE"
+      },
+      {
+        "value": "CUSTOM:BlockRubble"
+      },
+      {
+        "value": "CUSTOM:BlockRubble"
+      },
+      {
+        "value": "CUSTOM:WoodenBucketOfWater"
+      },
+      {
+        "value": "CUSTOM:BlockRubble"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SVBCMTConverter"
+    },
+    "name": "craft_converter",
+    "namespace": "mod"
+  }
+}

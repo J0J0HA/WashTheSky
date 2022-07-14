@@ -1,0 +1,557 @@
+{
+  "mod_elements": [
+    {
+      "name": "SVBCMT",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "washthesky"
+    },
+    {
+      "name": "SVBCMTConverter",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "washing_machine"
+    },
+    {
+      "name": "ConverterConvert",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "washing_machine_wash",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WoodenBucketOfWater",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_bucket_water"
+    },
+    {
+      "name": "GetWater",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shake_saplings",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WoodenBucketOfSapling",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_bucket_sapling"
+    },
+    {
+      "name": "SaplingBucket",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapling_bucket"
+    },
+    {
+      "name": "CraftConverter",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_converter"
+    },
+    {
+      "name": "Placeholder",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "placeholder"
+    },
+    {
+      "name": "Pebble",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pebble"
+    },
+    {
+      "name": "ClearBucket",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clear_bucket"
+    },
+    {
+      "name": "TinyStone",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tiny_stone"
+    },
+    {
+      "name": "SmeltPebble",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelt_pebble"
+    },
+    {
+      "name": "CraftStone",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_stone"
+    },
+    {
+      "name": "Blocked",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocked"
+    },
+    {
+      "name": "GravelWash",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravel_wash"
+    },
+    {
+      "name": "DirtPice",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_crumbs"
+    },
+    {
+      "name": "CraftDirt",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_dirt"
+    },
+    {
+      "name": "Rubble",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubble_part"
+    },
+    {
+      "name": "CraftRubble",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_rubble"
+    },
+    {
+      "name": "CraftCobble",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_cobble"
+    },
+    {
+      "name": "CraftGravel",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_gravel"
+    },
+    {
+      "name": "TagWoodenBuckets",
+      "type": "tag",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tag_wooden_buckets"
+    },
+    {
+      "name": "GUIConverter",
+      "type": "gui",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "washing_machine_gui"
+    },
+    {
+      "name": "CraftWoodenBucket",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_wooden_bucket"
+    },
+    {
+      "name": "FuelWoodenBucket",
+      "type": "fuel",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_bucket_fuel"
+    },
+    {
+      "name": "WoodenBucket",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_bucket"
+    },
+    {
+      "name": "BlockRubble",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubble"
+    },
+    {
+      "name": "WashCobble",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wash_cobble"
+    },
+    {
+      "name": "WashDirt",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wash_dirt"
+    },
+    {
+      "name": "EmeraldShard",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_shard"
+    },
+    {
+      "name": "DiamondShard",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_shard"
+    },
+    {
+      "name": "CraftDiamond",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_diamond"
+    },
+    {
+      "name": "CraftEmerald",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_emerald"
+    },
+    {
+      "name": "CraftEmeraldOre",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_emerald_ore"
+    },
+    {
+      "name": "CraftDiamondOre",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_diamond_ore"
+    },
+    {
+      "name": "CoalGravel",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_dust"
+    },
+    {
+      "name": "CraftCoal",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_coal"
+    },
+    {
+      "name": "CraftCoalOre",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_coal_ore"
+    },
+    {
+      "name": "WashDirtCrumbs",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wash_dirt_crumbs"
+    },
+    {
+      "name": "Compost",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compost"
+    },
+    {
+      "name": "Compostcraftingaccepted",
+      "type": "tag",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compostcraftingaccepted"
+    },
+    {
+      "name": "CraftCompost",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_compost"
+    },
+    {
+      "name": "CompostDestroy",
+      "type": "loottable",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compost_destroy"
+    },
+    {
+      "name": "RubbleDestroy",
+      "type": "loottable",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubble_destroy"
+    },
+    {
+      "name": "WoodenBucketOfSteam",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_bucket_of_steam"
+    },
+    {
+      "name": "CookSteam",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cook_steam"
+    },
+    {
+      "name": "Dust",
+      "type": "item",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dust"
+    },
+    {
+      "name": "SteamDust",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steam_dust"
+    },
+    {
+      "name": "SummonSteam",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summon_steam",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CraftSand",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_sand"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_gb": {
+      "item.washthesky.wooden_bucket_water": "Wooden Bucket of Water",
+      "item.washthesky.pebble": "Pebble",
+      "item.washthesky.wooden_bucket": "Wooden Bucket",
+      "item.washthesky.emerald_shard": "Emerald Shard",
+      "item.washthesky.blocked": "Blocked",
+      "itemGroup.tabwashthesky": "Wash the Sky",
+      "item.washthesky.dirt_crumbs": "Dirt Crumbs",
+      "block.washthesky.rubble": "Rubble Block",
+      "item.washthesky.dust": "Sand Dust",
+      "item.washthesky.rubble_part": "Rubble",
+      "item.washthesky.coal_dust": "Coal Dust",
+      "block.washthesky.washing_machine": "Converter",
+      "block.washthesky.compost": "Compost",
+      "item.washthesky.wooden_bucket_of_steam": "Wooden Bucket of Steam",
+      "item.washthesky.placeholder": "Placeholder",
+      "item.washthesky.tiny_stone": "Tiny Stone",
+      "item.washthesky.wooden_bucket_sapling": "Wooden Bucket Of Sapling",
+      "item.washthesky.diamond_shard": "Diamond Shard"
+    },
+    "en_us": {
+      "item.washthesky.wooden_bucket_water": "Wooden Bucket of Water",
+      "item.washthesky.pebble": "Pebble",
+      "item.washthesky.wooden_bucket": "Wooden Bucket",
+      "item.washthesky.emerald_shard": "Emerald Shard",
+      "item.washthesky.blocked": "Blocked",
+      "itemGroup.tabwashthesky": "Wash the Sky",
+      "item.washthesky.dirt_crumbs": "Dirt Crumbs",
+      "block.washthesky.rubble": "Rubble Block",
+      "item.washthesky.dust": "Sand Dust",
+      "item.washthesky.rubble_part": "Rubble",
+      "item.washthesky.coal_dust": "Coal Dust",
+      "block.washthesky.washing_machine": "Converter",
+      "block.washthesky.compost": "Compost",
+      "item.washthesky.wooden_bucket_of_steam": "Wooden Bucket of Steam",
+      "item.washthesky.placeholder": "Placeholder",
+      "item.washthesky.tiny_stone": "Tiny Stone",
+      "item.washthesky.wooden_bucket_sapling": "Wooden Bucket Of Sapling",
+      "item.washthesky.diamond_shard": "Diamond Shard"
+    },
+    "de_de": {
+      "item.washthesky.wooden_bucket_water": "Holzeimer mit Wasser",
+      "item.washthesky.pebble": "Kiesel",
+      "item.washthesky.wooden_bucket": "Holzeimer",
+      "item.washthesky.emerald_shard": "Smaragd-Stückchen",
+      "item.washthesky.blocked": "Blockiert",
+      "itemGroup.tabwashthesky": "Wash the Sky",
+      "item.washthesky.dirt_crumbs": "Erdkrümel",
+      "block.washthesky.rubble": "Geröll Block",
+      "item.washthesky.dust": "Sandstaub",
+      "item.washthesky.rubble_part": "Schutt",
+      "item.washthesky.coal_dust": "Kohlenstaub",
+      "block.washthesky.washing_machine": "Waschmaschiene",
+      "block.washthesky.compost": "Kompost",
+      "item.washthesky.wooden_bucket_of_steam": "Holzeimer mit Wasser",
+      "item.washthesky.placeholder": "Platzhalter",
+      "item.washthesky.tiny_stone": "Kleiner Stein",
+      "item.washthesky.wooden_bucket_sapling": "Holzeimer mit Sätzlingen",
+      "item.washthesky.diamond_shard": "Diamant-Stückchen"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "washthesky",
+    "modName": "WashTheSky",
+    "version": "1.0.1",
+    "description": "This mod is an alternative skyblock starter mod.",
+    "author": "JoJoJux/Johannes K. H.",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/washthesky",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "updateURL": "https://gist.githubusercontent.com/J0J0HA/438c24160880a675681f19bf23395fa5/raw/washthesky_updates.json",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using MCreator",
+    "modElementsPackage": "de.jojojux.washthesky",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}
