@@ -1,4 +1,3 @@
-See here: 
 [![Generic badge](https://img.shields.io/badge/Availible%20on-curseforge-green.svg)](https://www.curseforge.com/minecraft/mc-mods/washthesky)
 
 This mod, WashTheSky, is a skyblock starter mod. It gives you the possibillities to get almost all vanilla resources (in future; currently not all resources).
