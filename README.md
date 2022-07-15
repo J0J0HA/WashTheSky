@@ -1,7 +1,7 @@
 [![Donate on PayPal](https://img.shields.io/badge/Donate%20on-PayPal-green.svg)](https://www.paypal.com/donate/?hosted_button_id=KRANUFV8QUZPL)
 [![Availible on CurseForge](https://img.shields.io/badge/Availible%20on-CurseForge-green.svg)](https://www.curseforge.com/minecraft/mc-mods/washthesky)
 [![Availible on MCreator](https://img.shields.io/badge/Availible%20on-MCreator-green.svg)](https://mcreator.net/modification/88937/wash-sky)
-![Latest Version 1.0.1 (Beta)](https://img.shields.io/badge/Latest%20version-1.0.1%20(Beta)-green.svg)
+![Latest Version 1.0.2 (Beta)](https://img.shields.io/badge/Latest%20version-1.0.2%20(Beta)-green.svg)
  
 This mod, WashTheSky, is a skyblock starter mod. It gives you the possibillities to get almost all vanilla resources (in future; currently not all resources). 
 First you use Wooden Buckets with Saplings to get Water and dirt, which you can use to get stone, cobblestone, gravel, sand, rubble and compost. 
