@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "glass",
+        "1": "iron_block",
+        "2": "oak_planks",
+        "3": "water_flow",
+        "4": "water_still",
+        "missing": "glass"
+      },
+      "name": "default"
+    }
+  }
+}

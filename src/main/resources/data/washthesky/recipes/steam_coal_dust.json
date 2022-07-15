@@ -8,11 +8,11 @@
       "item": "washthesky:wooden_bucket_of_steam"
     },
     "1": {
-      "item": "washthesky:dust"
+      "item": "washthesky:coal_dust"
     }
   },
   "result": {
-    "item": "washthesky:dirt_crumbs",
-    "count": 1
+    "item": "minecraft:black_dye",
+    "count": 3
   }
 }

@@ -2,6 +2,8 @@
 package de.jojojux.washthesky.block;
 
 import net.minecraftforge.network.NetworkHooks;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.storage.loot.LootContext;
@@ -14,7 +16,6 @@ import net.minecraft.world.level.block.EntityBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.entity.player.Player;
@@ -29,6 +30,8 @@ import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
 
 import java.util.Random;
 import java.util.List;
@@ -38,6 +41,7 @@ import io.netty.buffer.Unpooled;
 
 import de.jojojux.washthesky.world.inventory.GUIConverterMenu;
 import de.jojojux.washthesky.procedures.ConverterConvertProcedure;
+import de.jojojux.washthesky.init.WashtheskyModBlocks;
 import de.jojojux.washthesky.block.entity.SVBCMTConverterBlockEntity;
 
 public class SVBCMTConverterBlock extends Block
@@ -45,18 +49,18 @@ public class SVBCMTConverterBlock extends Block
 
 			EntityBlock {
 	public SVBCMTConverterBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1f, 10f).noOcclusion()
+				.isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override
-	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("This block is still in production!"));
+	public boolean propagatesSkylightDown(BlockState state, BlockGetter reader, BlockPos pos) {
+		return true;
 	}
 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
-		return 15;
+		return 0;
 	}
 
 	@Override
@@ -91,7 +95,7 @@ public class SVBCMTConverterBlock extends Block
 			NetworkHooks.openGui(player, new MenuProvider() {
 				@Override
 				public Component getDisplayName() {
-					return new TextComponent("Converter");
+					return new TextComponent("Washing Machine");
 				}
 
 				@Override
@@ -132,4 +136,10 @@ public class SVBCMTConverterBlock extends Block
 			super.onRemove(state, world, pos, newState, isMoving);
 		}
 	}
+
+	@OnlyIn(Dist.CLIENT)
+	public static void registerRenderLayer() {
+		ItemBlockRenderTypes.setRenderLayer(WashtheskyModBlocks.WASHING_MACHINE.get(), renderType -> renderType == RenderType.translucent());
+	}
+
 }

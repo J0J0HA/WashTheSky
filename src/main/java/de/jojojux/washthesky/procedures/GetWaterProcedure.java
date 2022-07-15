@@ -30,7 +30,7 @@ public class GetWaterProcedure {
 			}
 			if (entity instanceof Player _player) {
 				ItemStack _setstack = new ItemStack(WashtheskyModItems.DIRT_CRUMBS.get());
-				_setstack.setCount((int) Mth.nextDouble(new Random(), 1, 10));
+				_setstack.setCount((int) Mth.nextDouble(new Random(), 1, 4));
 				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
 			}
 		}

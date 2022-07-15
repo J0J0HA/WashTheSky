@@ -75,7 +75,7 @@ public class GUIConverterScreen extends AbstractContainerScreen<GUIConverterMenu
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "SVBCMT Converter", 50, 11, -12829636);
+		this.font.draw(poseStack, "Washing Machine", 50, 11, -12829636);
 		this.font.draw(poseStack, "IN", 14, 20, -12829636);
 		this.font.draw(poseStack, "OUT OUT", 137, 20, -12829636);
 		this.font.draw(poseStack, "OUT", 138, 49, -12829636);

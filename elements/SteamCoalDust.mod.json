@@ -5,7 +5,7 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 3,
     "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
@@ -22,7 +22,7 @@
         "value": "CUSTOM:WoodenBucketOfSteam"
       },
       {
-        "value": "CUSTOM:Dust"
+        "value": "CUSTOM:CoalGravel"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:DirtPice"
+      "value": "Items.DYE#16"
     },
-    "name": "steam_dust",
+    "name": "steam_coal_dust",
     "namespace": "mod"
   }
 }

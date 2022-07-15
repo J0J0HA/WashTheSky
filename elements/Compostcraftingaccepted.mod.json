@@ -8,10 +8,19 @@
         "value": "Blocks.SAPLING#0"
       },
       {
-        "value": "Blocks.LEAVES#3"
+        "value": "Blocks.SAPLING#1"
       },
       {
-        "value": "Blocks.LEAVES2"
+        "value": "Blocks.SAPLING#2"
+      },
+      {
+        "value": "Blocks.SAPLING#3"
+      },
+      {
+        "value": "Blocks.SAPLING#4"
+      },
+      {
+        "value": "Blocks.SAPLING#5"
       },
       {
         "value": "Blocks.LEAVES#0"
@@ -23,34 +32,49 @@
         "value": "Blocks.LEAVES#2"
       },
       {
+        "value": "Blocks.LEAVES#3"
+      },
+      {
+        "value": "Blocks.LEAVES2"
+      },
+      {
         "value": "Blocks.LEAVES2#0"
       },
       {
         "value": "Blocks.LEAVES2#1"
       },
       {
-        "value": "Blocks.TALLGRASS#1"
+        "value": "Blocks.AZALEA_LEAVES"
       },
       {
-        "value": "Blocks.DOUBLE_PLANT#2"
+        "value": "Blocks.FLOWERING_AZALEA_LEAVES"
+      },
+      {
+        "value": "Blocks.AZALEA"
+      },
+      {
+        "value": "Blocks.FLOWERING_AZALEA"
+      },
+      {
+        "value": "Blocks.TALLGRASS"
+      },
+      {
+        "value": "Blocks.TALLGRASS#1"
       },
       {
         "value": "Blocks.TALLGRASS#2"
       },
       {
+        "value": "Blocks.DOUBLE_PLANT#2"
+      },
+      {
+        "value": "Blocks.SEAGRASS"
+      },
+      {
+        "value": "Blocks.TALL_SEAGRASS"
+      },
+      {
         "value": "Blocks.DOUBLE_PLANT#3"
-      },
-      {
-        "value": "Blocks.SAPLING#2"
-      },
-      {
-        "value": "Blocks.SAPLING#1"
-      },
-      {
-        "value": "Blocks.SAPLING#3"
-      },
-      {
-        "value": "Blocks.SAPLING#5"
       }
     ],
     "blocks": [],

@@ -23,12 +23,12 @@
       {
         "type": "label",
         "data": {
-          "text": "SVBCMT Converter",
+          "text": "Washing Machine",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "SVBCMT Converter",
+          "name": "Washing Machine",
           "x": 171,
           "y": 48
         }

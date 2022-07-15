@@ -1,12 +1,13 @@
 {
-  "parent": "block/cube",
+  "parent": "washthesky:custom/washingmachine",
   "textures": {
-    "down": "washthesky:blocks/converter_side",
-    "up": "washthesky:blocks/converter_side",
-    "north": "washthesky:blocks/converter_side",
-    "east": "washthesky:blocks/converter_side",
-    "south": "washthesky:blocks/converter_side",
-    "west": "washthesky:blocks/converter_side",
-    "particle": "washthesky:blocks/converter_side"
+    "all": "washthesky:blocks/converter_side",
+    "particle": "washthesky:blocks/converter_side",
+    "0": "washthesky:blocks/glass",
+    "1": "washthesky:blocks/iron_block",
+    "2": "washthesky:blocks/oak_planks",
+    "3": "washthesky:blocks/water_flow",
+    "4": "washthesky:blocks/water_still",
+    "missing": "washthesky:blocks/glass"
   }
 }

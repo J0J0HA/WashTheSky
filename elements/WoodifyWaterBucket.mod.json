@@ -7,7 +7,7 @@
     "cookingTime": 200,
     "recipeRetstackSize": 3,
     "group": "",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
         "value": ""
@@ -19,28 +19,28 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:WoodenBucketOfWater"
+        "value": "Blocks.PLANKS"
       },
       {
-        "value": "Blocks.GRAVEL"
+        "value": "Items.WATER_BUCKET"
       },
       {
-        "value": ""
-      },
-      {
-        "value": ""
+        "value": "Blocks.PLANKS"
       },
       {
         "value": ""
+      },
+      {
+        "value": "Blocks.PLANKS"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Rubble"
+      "value": "CUSTOM:WoodenBucketOfWater"
     },
-    "name": "gravel_wash",
+    "name": "woodify_water_bucket",
     "namespace": "mod"
   }
 }

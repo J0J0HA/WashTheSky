@@ -417,14 +417,6 @@
       "registry_name": "dust"
     },
     {
-      "name": "SteamDust",
-      "type": "recipe",
-      "sortid": 60,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "steam_dust"
-    },
-    {
       "name": "SummonSteam",
       "type": "procedure",
       "sortid": 61,
@@ -463,31 +455,35 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_sand"
+    },
+    {
+      "name": "SteamCoalDust",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steam_coal_dust"
+    },
+    {
+      "name": "WoodifyBucket",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woodify_bucket"
+    },
+    {
+      "name": "WoodifyWaterBucket",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woodify_water_bucket"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_gb": {
-      "item.washthesky.wooden_bucket_water": "Wooden Bucket of Water",
-      "item.washthesky.pebble": "Pebble",
-      "item.washthesky.wooden_bucket": "Wooden Bucket",
-      "item.washthesky.emerald_shard": "Emerald Shard",
-      "item.washthesky.blocked": "Blocked",
-      "itemGroup.tabwashthesky": "Wash the Sky",
-      "item.washthesky.dirt_crumbs": "Dirt Crumbs",
-      "block.washthesky.rubble": "Rubble Block",
-      "item.washthesky.dust": "Sand Dust",
-      "item.washthesky.rubble_part": "Rubble",
-      "item.washthesky.coal_dust": "Coal Dust",
-      "block.washthesky.washing_machine": "Converter",
-      "block.washthesky.compost": "Compost",
-      "item.washthesky.wooden_bucket_of_steam": "Wooden Bucket of Steam",
-      "item.washthesky.placeholder": "Placeholder",
-      "item.washthesky.tiny_stone": "Tiny Stone",
-      "item.washthesky.wooden_bucket_sapling": "Wooden Bucket Of Sapling",
-      "item.washthesky.diamond_shard": "Diamond Shard"
-    },
     "en_us": {
       "item.washthesky.wooden_bucket_water": "Wooden Bucket of Water",
       "item.washthesky.pebble": "Pebble",
@@ -500,7 +496,7 @@
       "item.washthesky.dust": "Sand Dust",
       "item.washthesky.rubble_part": "Rubble",
       "item.washthesky.coal_dust": "Coal Dust",
-      "block.washthesky.washing_machine": "Converter",
+      "block.washthesky.washing_machine": "Washing Machine",
       "block.washthesky.compost": "Compost",
       "item.washthesky.wooden_bucket_of_steam": "Wooden Bucket of Steam",
       "item.washthesky.placeholder": "Placeholder",
@@ -509,11 +505,11 @@
       "item.washthesky.diamond_shard": "Diamond Shard"
     },
     "de_de": {
-      "item.washthesky.wooden_bucket_water": "Holzeimer mit Wasser",
+      "item.washthesky.wooden_bucket_water": "Wasserholzeimer",
       "item.washthesky.pebble": "Kiesel",
       "item.washthesky.wooden_bucket": "Holzeimer",
-      "item.washthesky.emerald_shard": "Smaragd-Stückchen",
       "item.washthesky.blocked": "Blockiert",
+      "item.washthesky.emerald_shard": "Smaragd-Stückchen",
       "itemGroup.tabwashthesky": "Wash the Sky",
       "item.washthesky.dirt_crumbs": "Erdkrümel",
       "block.washthesky.rubble": "Geröll Block",
@@ -522,7 +518,7 @@
       "item.washthesky.coal_dust": "Kohlenstaub",
       "block.washthesky.washing_machine": "Waschmaschiene",
       "block.washthesky.compost": "Kompost",
-      "item.washthesky.wooden_bucket_of_steam": "Holzeimer mit Wasser",
+      "item.washthesky.wooden_bucket_of_steam": "Dampfholzeimer",
       "item.washthesky.placeholder": "Platzhalter",
       "item.washthesky.tiny_stone": "Kleiner Stein",
       "item.washthesky.wooden_bucket_sapling": "Holzeimer mit Sätzlingen",
@@ -536,14 +532,14 @@
   "workspaceSettings": {
     "modid": "washthesky",
     "modName": "WashTheSky",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "This mod is an alternative skyblock starter mod.",
     "author": "JoJoJux/Johannes K. H.",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/washthesky",
     "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "updateURL": "https://gist.githubusercontent.com/J0J0HA/438c24160880a675681f19bf23395fa5/raw/washthesky_updates.json",
+    "updateURL": "https://gist.github.com/J0J0HA/438c24160880a675681f19bf23395fa5/raw",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

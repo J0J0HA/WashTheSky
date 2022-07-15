@@ -95,7 +95,7 @@ public class SVBCMTConverterBlockEntity extends RandomizableContainerBlockEntity
 
 	@Override
 	public Component getDisplayName() {
-		return new TextComponent("Converter");
+		return new TextComponent("Washing Machine");
 	}
 
 	@Override
